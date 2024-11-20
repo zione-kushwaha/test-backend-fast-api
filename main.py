@@ -8,8 +8,8 @@ app = FastAPI()
 
 # Configure CORS
 origins = [
-    "http://192.168.254.11",  # Replace with your local IP address
-    "http://192.168.254.11:8000",  # Replace with your local IP address and port
+    "http://192.168.254.11",  
+    "http://192.168.254.11:8000", 
 ]
 
 app.add_middleware(
